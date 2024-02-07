@@ -1,6 +1,6 @@
 # Project Overview
--Practice html and css 
--Make a responsive website 
+- Practice html and css 
+- Make a responsive website 
 
 ## Team Members
 |Name|
