@@ -21,7 +21,7 @@ Description : Responsive Layouts.
 	<link rel="stylesheet" type="text/css" href="menu.css">
 
 	<style>	
-		/* 	
+		/* Remove borders at the end, they have been add just for detecting positions of items*/		
 		div {
 			border: 1px dashed gray;	
 		}
@@ -37,7 +37,7 @@ Description : Responsive Layouts.
 		.small {
 			border: 1px solid yellow;	
 		}	
-		Remove borders at the end, they have been add just for detecting positions of items*/	
+		
 	</style>
 
     <style>
@@ -66,12 +66,15 @@ Description : Responsive Layouts.
 			padding: 10px; }
 		
 		.row { 
-			/*I need some CSS codes.*/		
+			/*I need some CSS codes.*/	
+			overflow: hidden;	
 		}
 
 		.large, .medium, .small {
 			/*I need some CSS codes.*/
 			width: 100%;
+			box-sizing: border-box;
+			float:left;
 		}
 		
 		.gap {
