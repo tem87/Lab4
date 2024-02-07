@@ -3,10 +3,9 @@
 -Make a responsive website 
 
 ## Team Members
-|         Name           |
-|---|
+|Name|
+|:---:|
 |Thalia Espinoza Martinez|
-|---|
 |      Amina Sagheer     |
 
 
