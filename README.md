@@ -6,12 +6,12 @@
 |         Name           |
 |---|
 |Thalia Espinoza Martinez|
---------------------------
+---
 |      Amina Sagheer     |
 
 
 
-##Screenshots
+## Screenshots
 
 ### Exercise B
 ![Alt text](URL to your image)
