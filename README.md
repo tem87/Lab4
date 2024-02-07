@@ -6,7 +6,7 @@
 |         Name           |
 |---|
 |Thalia Espinoza Martinez|
----
+|---|
 |      Amina Sagheer     |
 
 
