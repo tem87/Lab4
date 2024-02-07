@@ -18,6 +18,7 @@ Description : Responsive Layouts.
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- First, link the menu.css file here -->
+	<link rel="stylesheet" type="text/css" href="menu.css">
 
 	<style>	
 		/* Remove borders at the end, they have been add just for detecting positions of items*/	
@@ -59,24 +60,44 @@ Description : Responsive Layouts.
 			/*I need some CSS codes.*/
 		}
 
+
 		@media screen and (min-width: 769px) {			
 			.large { 
 				/*I need some CSS codes.*/
+				width: 100%;
 			}
 			.medium { 
 				/*I need some CSS codes.*/
+				width: 70%;
 			}
 			.small { 
 				/*I need some CSS codes.*/
+				width: 30%;
 			 }
 		}
 
         @media screen and (max-width: 768px) {
             /*I need some CSS codes.*/
+			.large { 
+				/*I need some CSS codes.*/
+				width: 100%;
+			}
+			.medium { 
+				/*I need some CSS codes.*/
+				width: 60%;
+			}
+			.small { 
+				/*I need some CSS codes.*/
+				width: 40%;
+			 }
         }
 
         @media screen and (max-width: 480px) {
 			/*I need some CSS codes.*/
+			.large, .medium, .small{ 
+				/*I need some CSS codes.*/
+				width: 100%;
+			}
         }
 
         
