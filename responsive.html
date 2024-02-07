@@ -2,7 +2,7 @@
 =========================================================
 Name        : index.html
 Assignment  : Lab 4 Exercise B
-Author(s)   : Thalia Espinoza Martinez,
+Author(s)   : Thalia Espinoza Martinez, Amina Sagheer
 Submission  : Feb 07, 2024
 Description : Responsive Layouts.
 =========================================================
@@ -66,13 +66,18 @@ Description : Responsive Layouts.
 			padding: 10px; }
 		
 		.row { 
-			/*I need some CSS codes.*/	
+			/*I need some CSS codes.*/
+			display: block;
+			box-sizing: border-box;
+			clear: both;
 		
 		}
 
 		.large, .medium, .small {
 			/*I need some CSS codes.*/
 			width: 100%;
+			box-sizing: border-box;
+			float: left;
 			
 		}
 		
@@ -80,7 +85,8 @@ Description : Responsive Layouts.
 			/*I need some CSS codes.*/
 			/*Manage the .gap class to make sure that there is always space at the bottom of the page, preventing content from being hidden by the footer*/
 			height: 100px;
-			height: auto;
+			clear: both;
+			width: 100%;
 		}
 		
 
@@ -114,6 +120,18 @@ Description : Responsive Layouts.
 				/*I need some CSS codes.*/
 				width: 40%;
 			 }
+			 .menu{
+				float: none;
+				width: 100%;
+				 
+			 }
+			 .main {
+				margin: 0; 
+				padding: 0;
+				width: 100%;
+			}
+			
+			
         }
 
         @media screen and (max-width: 480px) {
@@ -123,10 +141,10 @@ Description : Responsive Layouts.
 			}
 
 			.menu{
-				display: inline;
 				float: none;
-				background-color: #e6e6e6; 
+				width: 100%;
 			}
+			
         }
 
         
