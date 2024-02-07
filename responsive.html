@@ -21,7 +21,7 @@ Description : Responsive Layouts.
 	<link rel="stylesheet" type="text/css" href="menu.css">
 
 	<style>	
-		/* Remove borders at the end, they have been add just for detecting positions of items*/	
+		/* 	
 		div {
 			border: 1px dashed gray;	
 		}
@@ -36,17 +36,34 @@ Description : Responsive Layouts.
 		}
 		.small {
 			border: 1px solid yellow;	
-		}		
+		}	
+		Remove borders at the end, they have been add just for detecting positions of items*/	
 	</style>
 
     <style>
-		body { margin: 0; padding: 0;}
-		img { max-width: 100%; height: auto; }
-        .container { width: 100%;}
-        .header, .footer { background-color: #f2f2f2; text-align: center; padding: 10px; }        
-        .main { padding: 15px; margin-left: 150px;}		
-        .footer { position: fixed; bottom: 0; width: 100%;}
-        .news-item { padding: 10px; }
+		body { 
+			margin: 0; 
+			padding: 0;
+		}
+		img { 
+			max-width: 100%; 
+			height: auto; }
+        .container { 
+			width: 100%;
+		}
+        .header, .footer { 
+			background-color: #f2f2f2; 
+			text-align: center; 
+			padding: 10px; }        
+        .main { 
+			padding: 15px; 
+			margin-left: 150px;}		
+        .footer { 
+			position: fixed; 
+			bottom: 0; 
+			width: 100%;}
+        .news-item { 
+			padding: 10px; }
 		
 		.row { 
 			/*I need some CSS codes.*/		
@@ -54,10 +71,13 @@ Description : Responsive Layouts.
 
 		.large, .medium, .small {
 			/*I need some CSS codes.*/
+			width: 100%;
 		}
 		
 		.gap {
 			/*I need some CSS codes.*/
+			/*Manage the .gap class to make sure that there is always space at the bottom of the page, preventing content from being hidden by the footer*/
+			height: 100px;
 		}
 
 
@@ -95,7 +115,6 @@ Description : Responsive Layouts.
         @media screen and (max-width: 480px) {
 			/*I need some CSS codes.*/
 			.large, .medium, .small{ 
-				/*I need some CSS codes.*/
 				width: 100%;
 			}
         }
