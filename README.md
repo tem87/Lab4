@@ -15,4 +15,4 @@
 ### Exercise B
 ![Alt text](./ExerciseB.gif)
 ### Exercise C
-![Alt text](./ExerciseC.gif))
+![Alt text](./ExerciseC.gif)
