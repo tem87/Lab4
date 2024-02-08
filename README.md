@@ -12,3 +12,6 @@
 
 ## Screenshots
 
+![Exercise C final output](./ExerciseC.gif)
+
+
