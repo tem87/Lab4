@@ -12,7 +12,3 @@
 
 ## Screenshots
 
-### Exercise B
-![Alt text](./ExerciseB.gif)
-### Exercise C
-![Alt text](./ExerciseC.gif)
