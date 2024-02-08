@@ -13,7 +13,6 @@
 ## Screenshots
 
 ### Exercise B
-![Alt text](URL to your image)
-
+![Alt text](./ExerciseB.gif)
 ### Exercise C
-![Alt text](URL to your image)
+![Alt text](./ExerciseC.gif))
